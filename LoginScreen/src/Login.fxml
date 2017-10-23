@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="1200.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button alignment="CENTER" layoutX="660.0" layoutY="707.0" mnemonicParsing="false" text="Login" />
+      <Button alignment="CENTER" layoutX="622.0" layoutY="805.0" mnemonicParsing="false" text="Create Account" />
+      <Label alignment="CENTER" layoutX="650.0" layoutY="503.0" text="User Name" />
+      <Label alignment="CENTER" layoutX="657.0" layoutY="615.0" text="Password" />
+      <TextField alignment="CENTER" layoutX="583.0" layoutY="464.0" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="595.0" layoutY="182.0" pickOnBounds="true" preserveRatio="true" />
+      <PasswordField layoutX="583.0" layoutY="576.0" />
+   </children>
+</AnchorPane>
